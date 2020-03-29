@@ -1,0 +1,20 @@
+type crossCurs {
+    RUB: Float
+    EUR: Float
+    USD: Float
+}
+
+type crossCost {
+    name: String
+    quantity: Int
+    currency: String
+    price: Float
+    crossCost: crossCurs
+}
+
+input baseObject {
+    name: String
+    quantity: Int
+    currency: String
+    price: Float
+}
